@@ -1,4 +1,4 @@
-var SERVER_SECRET = process.env.SECRET || "1234";
+var SERVER_SECRET = process.env.SECRET || "1434";
 // var SERVICE_ACCOUNT = JSON.parse(process.env.SERVICE_ACCOUNT)
 const PORT = process.env.PORT || 5000;
 
@@ -34,8 +34,6 @@ var upload = multer({ storage: storage })
 const admin = require("firebase-admin");
 // https://firebase.google.com/docs/storage/admin/start
 var SERVICE_ACCOUNT = JSON.parse(process.env.SERVICE_ACCOUNT)
-
-
 
 admin.initializeApp({
     credential: admin.credential.cert(SERVICE_ACCOUNT),

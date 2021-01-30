@@ -1,5 +1,7 @@
 // var url = "http://localhost:5000"
 var url = "https://twitterzaryab.herokuapp.com"
+
+
 var socket = io(url);
 socket.on('connect', function () {
     console.log("connected")
@@ -301,7 +303,7 @@ function logout() {
 }
 
 //display homepage using display none or block property
-// document.getElementById('profile').style.display = "none"
+document.getElementById('profile').style.display = "none"
 function showHome() {
     document.getElementById('profile').style.display = "none"
     document.getElementById('home').style.display = "block"

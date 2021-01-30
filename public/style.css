@@ -4,24 +4,22 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(download.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #f6ff71;
 }
 
 .main {
-    width: 500px;
+    width: 450px;
     max-width: 100%;
     margin: 0 auto;
     background-color: #fbfd89;
-    margin-top: 5%;
-    padding: 50px 50px 50px 50px;
+    margin-top: 3%;
+    padding: 40px 40px 40px 40px;
     box-shadow: 3px 3px 5px 6px rgb(252, 166, 240);
-    border-radius: 10px;
+
 }
 label {
-    font-size: 18px;
-    margin-bottom: 40px;
+    font-size: 15px;
+    margin-bottom: 50px;
 }
 
 .req {
@@ -31,12 +29,12 @@ label {
 input {
     display: block;
     width: 100%;
-    padding: 20px 0 20px 20px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    padding: 10px 0 10px 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
     font-size: 16px;
-    font-weight: bold;
-    border: none;
+    
+    border: solid 3px black;
     background-color: #8ecdf7;
 }
 
@@ -48,14 +46,14 @@ input:focus {
 
 button {
     display: block;
-    background-color: #3c8dbc;
+    background-color: #be0303;
     padding: 15px 40px;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    color: #ffffff;
-    font-size: 18px;
+    border: solid 3px black;
+    
+    
+    margin-top: 10px;
+    color: #d1fb5d;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -66,9 +64,9 @@ button:hover {
 .posts{
     padding: 20px;
     margin-bottom: 10px;
-    color: #fff;
-    background-color: #2d4957;
-    border-radius: 10px;
+    color: rgb(197, 213, 255);
+    background-color: #2e5669;
+   
 }
 #posts {
     display: flex;
@@ -92,12 +90,12 @@ button:hover {
 }
 .wrapper .sidebar{
     position: fixed;
-    width: 300px;
+    width: 2800px;
     height: 100vh;
-    background-color: #361d25;
+    background-color: #283c52;
     text-align: center;
-    padding: 30px 0;
-    color: #c7f7df;
+    padding: 200px 0;
+    color: #ecffac;
 }
 .main-content{
     width: 100%;
@@ -105,8 +103,8 @@ button:hover {
 }   
 .profile-pic {
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 165px;
+    width: 165px;
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
@@ -137,13 +135,13 @@ form input[type="file"] {
           cursor: pointer;
  }
 .ul{
-    margin-top: 30px;
+    margin-top: 25px;
 }
  .ul li{
     font-size: 20px;    
     cursor: pointer;
-    padding-bottom: 5px;
-    font-weight: bold;
+    padding-bottom: 4px;
+   
  }
  .postInout{
      color: rgb(125, 247, 179)
@@ -154,5 +152,5 @@ form input[type="file"] {
 }
 textarea:focus, 
 textarea.form-control:focus {
-  box-shadow: inset 0 -1px 0 rgb(146, 243, 154);
+  box-shadow: inset 0 -1px 0 rgb(225, 243, 146);
 }
